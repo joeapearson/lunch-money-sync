@@ -1,0 +1,13 @@
+This project imports transactions from Monzo to Lunchmoney using their respective APIs.  It's written in Elixir.
+
+The lunchmoney API is at https://lunchmoney.dev/
+The Monzo API is at https://docs.monzo.com/
+
+Run tests with `mix test`.
+
+We have four top-level contexts in the lib folder:
+
+- lunch_money - code specific to lunch money API
+- monzo - code specific to monzo API
+- lunch_money_sync - business logic for our app
+- lunch_money_sync_web - web interfact for lunch_money sync
